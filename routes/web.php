@@ -23,7 +23,7 @@ $router->get('/users',['uses' => 'UserController@getUsers']);
 
 });
 
-$router->get('/userss', 'UserController@index']);
+$router->get('/userss', 'UserController@index');
 
 $router->get('/users',['uses' => 'UserController@getUser']); //get all users
 
